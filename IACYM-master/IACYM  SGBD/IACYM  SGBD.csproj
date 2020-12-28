@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DA0693F8-98BA-46B1-83F5-5E31E76B1C86}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>IACYM__SGBD</RootNamespace>
+    <AssemblyName>IACYM  SGBD</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CheckToComments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckToComments.Designer.cs">
+      <DependentUpon>CheckToComments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChurchData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChurchData.Designer.cs">
+      <DependentUpon>ChurchData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\Id.cs" />
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberAddLink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberAddLink.Designer.cs">
+      <DependentUpon>MemberAddLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberComments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberComments.Designer.cs">
+      <DependentUpon>MemberComments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberFindMonth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberFindMonth.Designer.cs">
+      <DependentUpon>MemberFindMonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberFindName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberFindName.Designer.cs">
+      <DependentUpon>MemberFindName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberFindPaternal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberFindPaternal.Designer.cs">
+      <DependentUpon>MemberFindPaternal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberAdd.Designer.cs">
+      <DependentUpon>MemberAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberShow.Designer.cs">
+      <DependentUpon>MemberShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberShowAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberShowAll.Designer.cs">
+      <DependentUpon>MemberShowAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberShowMissionaryOfferingAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberShowMissionaryOfferingAll.Designer.cs">
+      <DependentUpon>MemberShowMissionaryOfferingAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberShowProTempleOfferingAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberShowProTempleOfferingAll.Designer.cs">
+      <DependentUpon>MemberShowProTempleOfferingAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberShowTitheAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberShowTitheAll.Designer.cs">
+      <DependentUpon>MemberShowTitheAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberUpdate.Designer.cs">
+      <DependentUpon>MemberUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MissionaryOfferingAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MissionaryOfferingAdd.Designer.cs">
+      <DependentUpon>MissionaryOfferingAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MissionaryOfferingFind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MissionaryOfferingFind.Designer.cs">
+      <DependentUpon>MissionaryOfferingFind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OfferingAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OfferingAdd.Designer.cs">
+      <DependentUpon>OfferingAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OfferingFind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OfferingFind.Designer.cs">
+      <DependentUpon>OfferingFind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProTempleOfferingAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProTempleOfferingAdd.Designer.cs">
+      <DependentUpon>ProTempleOfferingAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProTempleOfferingFind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProTempleOfferingFind.Designer.cs">
+      <DependentUpon>ProTempleOfferingFind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TitheAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TitheAdd.Designer.cs">
+      <DependentUpon>TitheAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TitheFind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TitheFind.Designer.cs">
+      <DependentUpon>TitheFind.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CheckToComments.resx">
+      <DependentUpon>CheckToComments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChurchData.resx">
+      <DependentUpon>ChurchData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberAddLink.resx">
+      <DependentUpon>MemberAddLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberComments.resx">
+      <DependentUpon>MemberComments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberFindMonth.resx">
+      <DependentUpon>MemberFindMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberFindName.resx">
+      <DependentUpon>MemberFindName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberFindPaternal.resx">
+      <DependentUpon>MemberFindPaternal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberAdd.resx">
+      <DependentUpon>MemberAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberShow.resx">
+      <DependentUpon>MemberShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberShowAll.resx">
+      <DependentUpon>MemberShowAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberShowMissionaryOfferingAll.resx">
+      <DependentUpon>MemberShowMissionaryOfferingAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberShowProTempleOfferingAll.resx">
+      <DependentUpon>MemberShowProTempleOfferingAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberUpdate.resx">
+      <DependentUpon>MemberUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberShowTitheAll.resx">
+      <DependentUpon>MemberShowTitheAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MissionaryOfferingAdd.resx">
+      <DependentUpon>MissionaryOfferingAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MissionaryOfferingFind.resx">
+      <DependentUpon>MissionaryOfferingFind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfferingAdd.resx">
+      <DependentUpon>OfferingAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfferingFind.resx">
+      <DependentUpon>OfferingFind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ProTempleOfferingAdd.resx">
+      <DependentUpon>ProTempleOfferingAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProTempleOfferingFind.resx">
+      <DependentUpon>ProTempleOfferingFind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TitheAdd.resx">
+      <DependentUpon>TitheAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TitheFind.resx">
+      <DependentUpon>TitheFind.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

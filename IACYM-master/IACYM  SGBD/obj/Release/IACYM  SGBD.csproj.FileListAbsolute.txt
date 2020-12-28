@@ -1,0 +1,32 @@
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\bin\Release\IACYM  SGBD.exe.config
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\bin\Release\IACYM  SGBD.exe
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\bin\Release\IACYM  SGBD.pdb
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.CheckToComments.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.ChurchData.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.MainManage.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.MemberAddLink.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.MemberComments.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.MemberFindMonth.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.MemberFindName.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.MemberFindPaternal.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.MemberAdd.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.MemberShow.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.MemberShowAll.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.MemberShowMissionaryOfferingAll.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.MemberShowProTempleOfferingAll.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.MemberUpdate.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.MemberShowTitheAll.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.MissionaryOfferingAdd.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.MissionaryOfferingFind.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.OfferingAdd.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.OfferingFind.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.Properties.Resources.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.ProTempleOfferingAdd.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.ProTempleOfferingFind.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.TitheAdd.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM__SGBD.TitheFind.resources
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM  SGBD.csproj.GenerateResource.cache
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM  SGBD.csproj.CoreCompileInputs.cache
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM  SGBD.exe
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM  SGBD.pdb
+D:\Code\dave-xdavid.r97\IACYM\IACYM  SGBD\obj\Release\IACYM  SGBD.csprojAssemblyReference.cache
